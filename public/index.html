@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>NEWS</title>
+		<meta charset="utf-8" />
+        <link href="news_css.css" rel="stylesheet">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <style>
+            body{
+                background-color: lightgray;
+            }
+        </style>
+	</head>
+	<body>
+            <ul class="header">
+                <li class="header"><a href="index.html">HOME</a></li>
+                <li class="header"><a>ABOUT US</a></li>
+            </ul>
+
+			<section id="banner">
+				<h2 id="hi">HELLO WORLD</h2>
+				<p>In life's earnest battle they only prevail,</p>
+                <p>who daily march onward and never say fail.</p>
+			</section>
+
+            <br><br><br>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-4"><img src="https://firebasestorage.googleapis.com/v0/b/news-d5eef.appspot.com/o/asset%2Fnews1.jpg?alt=media&token=dae44c26-153b-4062-8fdc-104a17f7bf75" width="350"></div>
+                    <div class="col-sm-4">
+                        <div class="content">
+                            <h2><a href="news_content.html">公眾授權討論系列（四）</a></h2>
+                            <p>公眾領域裡的著作，任何人都可以自由使用。而部份的著作權利人，會在保護期間屆滿前，宣布其拋棄著作的利益，而讓作品提早進入眾人皆可自由利用的公眾領域，而若原作者已經做這樣的聲明，後續有非原作者的其他人，聲稱這些作品都是其私人的著作，轉而向該公眾領域作品的利用人索取授權金額，原作者還能對這樣的錯置行為展開司法救濟嗎？</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-2"></div>
+                </div>
+            </div>
+
+            <br><br><br>
+            
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-4">
+                        <div class="content">
+                            <h2><a href="news_content2.html">Netflix授權釋出影像演算法測試片 Meridian</a></h2>
+                            <p>雖然它可能不會成為 Netflix下一部大賣作，這短短 12 分鐘以 CC 授權釋出的 "Meridian"（本文暫譯《子午線》）影片內容將會對美國的電影與電視工程師協會 (SMPTE) 產生重大影響，通過資源共享，來讓開源標準的互動性母帶格式（原文 Interoperable Master Format 縮寫：IMF）在網際網路上更加可用。</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4"><img src="https://firebasestorage.googleapis.com/v0/b/news-d5eef.appspot.com/o/asset%2Fnews2.jpg?alt=media&token=f43e6a66-6c2b-45f8-865c-92584d20226f" width="350"></div>
+                    <div class="col-sm-2"></div>
+                </div>
+            </div>
+
+            <br><br>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <button class="btn btn-xl" onclick="totop()">back to top</button>
+                    </div>
+                </div>
+            </div>
+
+            <br><br><br>
+
+            <div class="contacts">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 text-center">
+                            <h2>Contact Us</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3"></div>
+                        <div class="col-lg-6">
+                            <div>
+                                <input type="text" class="form-control" placeholder="Your Name *" id="name">
+                            </div>
+                            <p></p>
+                            <div>
+                                <input type="email" class="form-control" placeholder="Your Email *" id="email">
+                            </div>
+                            <p></p>
+                            <div>
+                                <input type="tel" class="form-control" placeholder="Your Phone *" id="phone">
+                            </div>
+                            <p></p>
+                        </div>
+                        <div class="col-lg-3"></div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-lg-12 text-center">
+                            <button class="btn btn-xl" onclick="submit()">Send Message</button>
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+            </div>
+            <script src="https://www.gstatic.com/firebasejs/3.7.4/firebase.js"></script>
+            <script>
+            // Initialize Firebase
+            var config = {
+                apiKey: "AIzaSyAAPbLVrKz-dGM8JQyWiiOdnevWF2Js2N8",
+                authDomain: "news-d5eef.firebaseapp.com",
+                databaseURL: "https://news-d5eef.firebaseio.com",
+                storageBucket: "news-d5eef.appspot.com",
+                messagingSenderId: "186369068876"
+            };
+            firebase.initializeApp(config);
+            </script>
+            <script src="abc.js"></script>
+	</body>
+</html>

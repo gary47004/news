@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "news-d5eef",
+    "staging": "news-d5eef"
+  }
+}

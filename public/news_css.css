@@ -1,0 +1,70 @@
+ul.header {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #111111;
+}
+
+li.header {
+        float: left;
+}
+
+li.header a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+}
+
+li.header a:hover {
+        background-color: #333333;
+}
+
+
+#banner {
+	padding: 25em 0 25em 0;
+	background-color: #1E2832;
+	color: rgba(255, 255, 255, 0.75);
+	background-attachment: fixed;
+	/*background-image: url("asset/news_banner.jpg");*/
+        background-image: url("https://firebasestorage.googleapis.com/v0/b/news-d5eef.appspot.com/o/asset%2Fnews_banner.jpg?alt=media&token=b1f35762-68f1-45f6-9a4e-14e6d230807a");
+	background-size: cover;
+	text-align: center;
+}
+
+section {
+	text-align: center;
+}
+
+
+div image {
+        background-color: lightgray;
+}
+
+div.content{
+        text-align: center;
+        color: black;
+        background-color:  lightgray;
+}
+
+div.content h2 a{
+        color: black;
+}
+
+div.connections{
+        text-align: left;
+        color: black;
+        background-color:  lightgray;
+}
+
+div.article{
+        text-align: left;
+        color: black;
+        background-color:  lightgray;
+}
+
+div.contacts{
+        background-color: dimgray;
+}
